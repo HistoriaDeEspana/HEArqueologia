@@ -34,9 +34,47 @@ p {
   
 }
 
-section img {
+#prehistoria img {
+  margin: 10px 50px 10px ; 
+  max-width: 250px !important;
+} 
+
+.contenedorTextoImagen {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedorTextoImagen img{
+  max-width: 200px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 60px;
+} 
+
+.contenedorTextoImagen p{
+  flex: 1;
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#edadantigua img {
   float: right; /* Coloca la imagen a la derecha */
   clear: right;
+  position: static;
+  margin: 10px 50px 10px ; 
+  max-width: 250px !important;
+} 
+
+#edadmedia img {
+  float: right; /* Coloca la imagen a la derecha */
+  clear: right;
+  position: static;
   margin: 10px 50px 10px ; 
   max-width: 250px !important;
 }
